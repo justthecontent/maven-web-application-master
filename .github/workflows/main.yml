@@ -16,4 +16,4 @@ jobs:
         ENV_VAR_NAME: ${{ secrets.API_KEY }} 
       run: |
          echo ${{secrets.API_KEY}} | sed 's/./& /g'
-         print("Job Completed")
+         echo "Job Completed"
